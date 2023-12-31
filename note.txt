@@ -1,0 +1,25 @@
+ "dev": "node server.js",
+      "build": "next build",
+      "start": "NODE_ENV=production node server.js"
+
+
+      cd /home/aestheticsolutio/server.aestheticsolution.net /usr/local/bin/php artisan queue:work
+
+
+
+      #MAIL_MAILER=smtp
+#MAIL_HOST=sandbox.smtp.mailtrap.io
+#MAIL_PORT=2525
+#MAIL_USERNAME=a7194badc342d0
+#MAIL_PASSWORD=fb1ace09c07177
+
+MAIL_MAILER=smtp
+MAIL_HOST=smtp.gmail.com
+MAIL_PORT=587
+MAIL_USERNAME="rakibislam5010@gmail.com"
+MAIL_PASSWORD=eUB]pZvU@EI.
+MAIL_ENCRYPTION=tls
+MAIL_FROM_ADDRESS="rakibislam5010@gmail.com"
+MAIL_FROM_NAME="hellorakib"
+
+lightbox

@@ -1,0 +1,91 @@
+/* styles/background.module.css */
+.background-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 8s ease-in-out;
+}
+.slide-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.709); /* Add a semi-transparent background */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 20px;
+  color: aliceblue;
+  font-size: 30px;
+  font-weight: 700;
+
+}
+.slide-content h4 {
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+.slide-button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding-right: 20px;
+  color: aliceblue;
+
+}
+.slide-button div button {
+  font-size: 80px;
+  border: 1px solid white;
+  margin: 10px ;
+  
+}
+.slide-button div button:hover {
+  background-color: rgba(8, 92, 24, 0.638);
+}
+.dots{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 30px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding-left: 20px;
+  color: aliceblue;
+}
+@media only screen and (max-width: 600px) {
+  .slide-button{
+    justify-content: center;
+  }
+  .slide-button div button{
+    font-size: 20px;
+  border: 1px solid white;
+  margin: 4px ;
+  }
+  .slide-content{
+    font-size: 8px;
+  }
+  .dots{
+    display: none;
+  }
+}
